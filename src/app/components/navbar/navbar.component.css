@@ -1,0 +1,29 @@
+.navbar {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    width: 98%;
+    height: 20%;
+    background-color:#d91d25;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    color: aliceblue;
+}
+
+.list {
+    display: flex;
+    width: 60%;
+    flex-direction: row;
+    align-items: end;
+    justify-content: space-between ;   
+    list-style-type: none;
+    color: aliceblue; 
+}
+
+
