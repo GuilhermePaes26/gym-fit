@@ -1,1 +1,26 @@
 @import 'normalize.css';
+@font-face {
+    font-family: "Myfont";
+    src: url(../public/assets/fonts/LilitaOne-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: "MyFontSmall";
+    src: url(../public/assets/fonts/Abel-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url(../public/assets/fonts/Poppins-Regular.ttf) format('truetype');
+}
+
+html, body {
+    height: 100%;  
+    margin: 0;     
+    padding: 0;    
+}
+
+/* app-hero {
+    display: block; 
+    min-height: 100vh;
+} */

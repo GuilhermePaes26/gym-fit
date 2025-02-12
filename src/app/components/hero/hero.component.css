@@ -1,0 +1,15 @@
+.hero{
+    height: 70%;
+}
+.contentCenter {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../../../../public/assets/images/Musculação-para-homens-e-mulheres.jpeg'); 
+    background-size: 100% 100%; /* Ajusta a largura para 50% e altura automática */
+    background-position: center center;
+    background-repeat: no-repeat; 
+    padding: 20px;
+}

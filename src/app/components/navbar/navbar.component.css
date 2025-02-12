@@ -1,10 +1,12 @@
 .navbar {
+    font-family: 'Myfont';
+    font-size: 25px;
     margin: 0px;
     padding: 0px;
     display: flex;
     flex-direction: row;
-    width: 98%;
-    height: 20%;
+    width: 100%;
+    height: 8%;
     background-color:#d91d25;
 }
 
@@ -17,10 +19,12 @@
 }
 
 .list {
+    font-family: 'Poppins'; 
+    font-size: 15px;
     display: flex;
     width: 60%;
     flex-direction: row;
-    align-items: end;
+    align-items: center;
     justify-content: space-between ;   
     list-style-type: none;
     color: aliceblue; 
