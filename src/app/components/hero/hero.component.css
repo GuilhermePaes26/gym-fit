@@ -1,5 +1,5 @@
 .hero{
-    height: 70%;
+    height: 80%;
 }
 .contentCenter {
     display: flex;
@@ -7,9 +7,53 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url('../../../../public/assets/images/Musculação-para-homens-e-mulheres.jpeg'); 
+    background-image: url('../../../../public/assets/images/musculoman.jpg'); 
     background-size: 100% 100%; /* Ajusta a largura para 50% e altura automática */
     background-position: center center;
     background-repeat: no-repeat; 
     padding: 20px;
+    filter: grayscale(20%);
+}
+
+.containerTitle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sub-red{
+    color: #da1d25;
+    font-family: 'Poppins';
+    font-size: 32px;
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    font-family: 'Poppins';
+    color: white;
+    font-size: 60px;
+    margin: 0;
+    padding: 0;
+}
+.RedTitle{ 
+    color: #da1d25;
+    font-family: 'Poppins';
+    font-size: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+.textInformate {
+    display: flex;
+    width: 70%;
+    align-items: center;
+    justify-content: center;
+}
+
+.text {
+    color: white;
+    font-size: 18px;
+    font-family: 'Poppins';
+    text-align: center;
 }
