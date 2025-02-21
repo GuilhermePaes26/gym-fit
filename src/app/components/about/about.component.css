@@ -1,0 +1,46 @@
+.content {
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-family: "Poppins";
+}
+
+.textContent {
+  width: 30%;
+  padding: 8vh;
+}
+.imgContainer {
+  width: 30%;
+}
+
+.text {
+  font-size: 18px;
+  color: #333;
+}
+
+.abImg {
+  width: 90%;
+  height: 80%;
+}
+.red {
+  color: #da1d25;
+}
+
+.readmore {
+  background-color: #da1d25;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  border: 2px solid #da1d25;
+  padding: 15px 35px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.readmore:hover {
+  background-color: black;
+  border: 2px solid black;
+  transition: 0.3s;
+}

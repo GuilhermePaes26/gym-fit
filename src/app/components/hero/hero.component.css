@@ -1,5 +1,5 @@
 .hero {
-  height: 85%;
+  height: 75%;
 }
 .contentCenter {
   display: flex;
@@ -7,7 +7,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url("../../../../public/assets/images/musculoman.jpg");
+  background-image: url("../../../../public/assets/images/Athletic_Couple_Darkened.jpg");
   background-size: 100% 100%; /* Ajusta a largura para 50% e altura automática */
   background-position: center center;
   background-repeat: no-repeat;
@@ -56,4 +56,38 @@
   font-size: 18px;
   font-family: "Poppins";
   text-align: center;
+}
+
+.redBtn {
+  background-color: #da1d25;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  border: 2px solid #da1d25;
+  padding: 10px 20px;
+  margin: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.redBtn:hover {
+  background-color: transparent;
+  transition: 0.3s;
+}
+
+.transparent {
+  background-color: transparent;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  border: 2px solid red;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.transparent:hover {
+  transition: 0.3s;
+  background-color: black;
+  border: 2px solid black;
 }
