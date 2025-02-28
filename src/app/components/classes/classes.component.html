@@ -1,0 +1,19 @@
+<div class="principal">
+  <div class="TextContainer">
+    <h1>Today <span class="red-text">Classes</span></h1>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ultrices
+      sapien vel quam luctus pulvinar.
+    </p>
+  </div>
+  <div class="container">
+    <div *ngFor="let item of classes">
+      <app-class-card
+        [title]="item.title"
+        [description]="item.description"
+        [icon]="item.icon"
+      >
+      </app-class-card>
+    </div>
+  </div>
+</div>

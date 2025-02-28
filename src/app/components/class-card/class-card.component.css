@@ -1,0 +1,55 @@
+.card {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+  transition: transform 0.2s;
+  height: 220px;
+  width: 300px;
+  margin: 10px 0;
+  font-family: "Poppins";
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card:hover .icon {
+  transform: rotate(360deg);
+  background-color: black;
+}
+
+.card:hover .icon img {
+  filter: brightness(0) invert(1);
+}
+
+.icon {
+  background: #da1d25;
+  color: white;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 15px;
+  transition: transform 0.5s ease-in-out, background-color 0.5s ease-in-out;
+}
+
+.icon img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  transition: transform 0.5s ease-in-out, filter 0.5s ease-in-out;
+}
+
+h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 15px;
+  color: gray;
+}

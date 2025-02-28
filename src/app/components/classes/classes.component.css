@@ -1,0 +1,38 @@
+.principal {
+  background-color: #f8f4ef;
+  margin-top: 20px;
+  width: 100%;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.container > div {
+  flex: 1 1 calc(33.33% - 40px);
+  max-width: 360px;
+  display: flex;
+  justify-content: center;
+}
+
+.TextContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: "Poppins";
+  padding: 40px;
+}
+
+p {
+  margin: 0;
+}
+.red-text {
+  color: #da1d25;
+}
