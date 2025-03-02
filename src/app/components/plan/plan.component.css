@@ -1,6 +1,7 @@
 .principal {
   text-align: center;
-  margin: 40px 0;
+  margin-top: 60px;
+  padding-bottom: 40px;
   background-color: #f8f4ef;
   font-family: "Poppins";
 }

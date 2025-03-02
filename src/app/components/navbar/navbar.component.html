@@ -1,12 +1,10 @@
 <nav class="navbar">
-<div class="logo">GYMFIT</div>
-<ul class="list">
-    <li>HOME</li>
-    <li>ABOUT</li>
-    <li>CLASSES</li>
-    <li>GALLERY</li>
-    <li>TRAINER</li>
-    <li>TESTIMONIAL</li>
-    <li>CONTACT</li>
-</ul>
+  <div class="logo">GYMFIT</div>
+  <ul class="list">
+    <li (click)="scrollTo('home')">HOME</li>
+    <li (click)="scrollTo('about')">ABOUT</li>
+    <li (click)="scrollTo('classes')">CLASSES</li>
+    <li (click)="scrollTo('trainers')">TRAINER</li>
+    <li (click)="scrollTo('pricing')">PRICING</li>
+  </ul>
 </nav>
