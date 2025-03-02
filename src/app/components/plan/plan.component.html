@@ -1,1 +1,21 @@
-<p>plan works!</p>
+<div class="principal">
+  <div class="TextContainer">
+    <h1>Pricing <span class="red-text">Plans</span></h1>
+    <p>Choose the best plan that suits your fitness journey.</p>
+    <hr class="textDivHr" />
+  </div>
+
+  <div class="container">
+    <div class="plans-row">
+      <div *ngFor="let plan of plans" class="plan-card">
+        <app-prices-card
+          [title]="plan.title"
+          [description]="plan.description"
+          [price]="plan.price"
+          [features]="plan.features"
+        >
+        </app-prices-card>
+      </div>
+    </div>
+  </div>
+</div>

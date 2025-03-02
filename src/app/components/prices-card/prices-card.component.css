@@ -1,0 +1,69 @@
+.card {
+  width: 350px;
+  background: #fff;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  margin: 30px;
+  transition: transform 0.5s;
+  font-family: "Poppins";
+}
+
+.title {
+  background-color: #d3222a;
+  color: white;
+  padding: 20px;
+}
+
+.value {
+  padding: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.value h3 {
+  font-size: 30px;
+  color: #333;
+  margin: 15px;
+}
+
+.value hr {
+  width: 50%;
+  margin: 10px auto;
+}
+
+.features {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.features li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  font-size: 16px;
+}
+
+.btn {
+  padding: 20px;
+}
+
+button {
+  background: #d3222a;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #333;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}

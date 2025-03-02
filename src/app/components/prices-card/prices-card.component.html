@@ -1,0 +1,17 @@
+<div class="card">
+  <div class="title">
+    <h3>{{ title }}</h3>
+    <p>{{ description }}</p>
+  </div>
+  <div class="value">
+    <h3>${{ price }}</h3>
+    <hr />
+    <p>Per Month</p>
+  </div>
+  <ul class="features">
+    <li *ngFor="let feature of features">{{ feature }}</li>
+  </ul>
+  <div class="btn">
+    <button>Buy Now</button>
+  </div>
+</div>
