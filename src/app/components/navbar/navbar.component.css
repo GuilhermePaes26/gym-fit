@@ -35,3 +35,10 @@
 .list li:hover {
   color: #333;
 }
+
+@media (max-width: 720px) {
+  .list {
+    flex-wrap: wrap;
+    padding: 5px;
+  }
+}

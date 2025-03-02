@@ -41,3 +41,17 @@
   font-size: 14px;
   color: #ff4d6d;
 }
+
+@media (max-width: 770px) {
+  .card {
+    width: 80%;
+    margin: 15px;
+  }
+}
+
+@media (max-width: 425px) {
+  .card {
+    width: 80%;
+    margin: 20px auto;
+  }
+}

@@ -67,3 +67,30 @@ button:hover {
 .card:hover {
   transform: scale(1.05);
 }
+
+@media (max-width: 770px) {
+  .card {
+    width: 80%;
+  }
+
+  .value h3 {
+    font-size: 20px;
+  }
+
+  .value {
+    padding: 10px;
+  }
+
+  .features li {
+    font-size: 14px;
+  }
+
+  .btn {
+    padding: 10px;
+  }
+
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+}

@@ -53,3 +53,9 @@ p {
   font-size: 15px;
   color: gray;
 }
+
+@media (max-width: 770px) {
+  .card {
+    width: 80%;
+  }
+}

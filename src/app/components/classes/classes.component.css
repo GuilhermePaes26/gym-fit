@@ -36,3 +36,14 @@ p {
 .red-text {
   color: #da1d25;
 }
+
+@media (max-width: 770px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container > div {
+    flex: 1 1 100%;
+  }
+}

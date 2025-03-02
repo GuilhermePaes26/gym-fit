@@ -91,3 +91,32 @@
   background-color: black;
   border: 2px solid black;
 }
+
+@media (max-width: 950px) {
+  .contentCenter {
+    background-size: 100% 100%;
+  }
+  .containerTitle {
+    margin-top: 20px;
+  }
+  .sub-red {
+    font-size: 24px;
+  }
+  .title {
+    font-size: 40px;
+  }
+  .RedTitle {
+    font-size: 30px;
+  }
+  .text {
+    font-size: 16px;
+  }
+  .redBtn {
+    padding: 10px 15px;
+    font-size: 14px;
+  }
+  .transparent {
+    padding: 10px 15px;
+    font-size: 14px;
+  }
+}
