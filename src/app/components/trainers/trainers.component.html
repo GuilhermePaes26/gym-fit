@@ -1,1 +1,23 @@
-<p>trainers works!</p>
+<div class="principal">
+  <div class="TextContainer">
+    <h1>Our <span class="red-text">Trainers</span></h1>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ultrices
+      sapien vel quam luctus pulvinar.
+    </p>
+    <hr class="textDivHr" />
+  </div>
+
+  <div class="container">
+    <div class="trainers-row">
+      <div *ngFor="let item of trainers" class="trainer-card">
+        <app-trainer-card
+          [title]="item.title"
+          [description]="item.description"
+          [image]="item.image"
+        >
+        </app-trainer-card>
+      </div>
+    </div>
+  </div>
+</div>

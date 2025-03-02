@@ -4,6 +4,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { HeroComponent } from './components/hero/hero.component';
 import { AboutComponent } from './components/about/about.component';
 import { ClassesComponent } from './components/classes/classes.component';
+import { TrainersComponent } from './components/trainers/trainers.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @Component({
@@ -15,6 +16,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     HeroComponent,
     AboutComponent,
     ClassesComponent,
+    TrainersComponent,
     FontAwesomeModule,
   ],
   templateUrl: './app.component.html',
